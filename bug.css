@@ -1,0 +1,1 @@
+The following CSS rule targets elements with the class `container` and sets their background color to blue. However, it also unintentionally affects elements with classes that contain `container`, such as `addContainer` or `pageContainer`. This is due to the use of the attribute selector with a partial match: .container { background-color: blue; }
