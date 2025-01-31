@@ -1,0 +1,1 @@
+This repository demonstrates a common CSS bug related to the use of attribute selectors with partial matching. The bug involves unintended style inheritance to elements with classes containing a substring, rather than only those with an exact class match. A solution is provided by using more specific selectors to avoid unintended styling.
